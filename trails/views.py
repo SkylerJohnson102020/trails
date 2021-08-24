@@ -1,11 +1,13 @@
-from django.views import generic
-from django.views.generic import TemplateView
+from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView
+from .serializers import HikeSerializer
+from .models import Hike
+from .permissions import IsAuthorOrReadOnly
 
-class HomePageView(TemplateView):
-    template_name = 'home.html'
+class HikeList(ListCreateAPIView):
+    queryset = Hike.objects.all()
+    serializer_class = HikeSerializer
 
-class HikeList(TemplateView):
-    template_name = 'about.html'
-
-class HikeDetail(TemplateView):
-    template_name = 'search.html'
+class HikeDetail(RetrieveUpdateDestroyAPIView):
+    permission_classes = (IsAuthorOrReadOnly,)
+    queryset = Hike.objects.all()
+    serializer_class = HikeSerializer

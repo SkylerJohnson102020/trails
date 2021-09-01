@@ -164,6 +164,14 @@ optional = false
 python-versions = ">=3.5"
 
 [[package]]
+name = "tailwindcss"
+version = "0.0.1"
+description = "to use tailwindcss"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "tomli"
 version = "1.2.1"
 description = "A lil' TOML parser"
@@ -174,7 +182,7 @@ python-versions = ">=3.6"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "56acdb9a5fcf48ea176fdfc5c024a3d4fcbc96276b6538744801cdce2ae5c0b5"
+content-hash = "52fcae9e0452fb7594d34eca723efc7f9b312cfb7f92af419779316b3b0947bb"
 
 [metadata.files]
 appdirs = [
@@ -279,6 +287,9 @@ regex = [
 sqlparse = [
     {file = "sqlparse-0.4.1-py3-none-any.whl", hash = "sha256:017cde379adbd6a1f15a61873f43e8274179378e95ef3fede90b5aa64d304ed0"},
     {file = "sqlparse-0.4.1.tar.gz", hash = "sha256:0f91fd2e829c44362cbcfab3e9ae12e22badaa8a29ad5ff599f9ec109f0454e8"},
+]
+tailwindcss = [
+    {file = "tailwindcss-0.0.1.tar.gz", hash = "sha256:2ba71105662701a522a13367844f7f5e8830456da69f30048291440431f8875b"},
 ]
 tomli = [
     {file = "tomli-1.2.1-py3-none-any.whl", hash = "sha256:8dd0e9524d6f386271a36b41dbf6c57d8e32fd96fd22b6584679dc569d20899f"},

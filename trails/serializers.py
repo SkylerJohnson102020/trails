@@ -3,5 +3,5 @@ from .models import Hike
 
 class HikeSerializer(ModelSerializer):
     class Meta:
-        fields = ('id', 'author', 'trail_name', 'description', 'created_at')
+        fields = ('id', 'author', 'trail_name', 'description')
         model = Hike

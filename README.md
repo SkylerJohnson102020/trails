@@ -2,7 +2,7 @@
 
 **Author**: Skyler Johnson
 **Repo**: [Link to GiHub Repository](https://github.com/SkylerJohnson102020/trails)
-**Version**: 1.0.0
+**Version**: 1.0.1
 
 ## Overview
 
@@ -23,3 +23,5 @@ Trails is a full-stack application written in Django/Python using Django REST Fr
 09-01-2021 2:26pm - Added tailwindcss. Version 1.0.0 [Pull Request](https://github.com/SkylerJohnson102020/trails/commit/bca6c6c7a4121510b5ccea62cd408c8772ab4937)
 
 09-01-2021 2:55pm - Added documentation to README, next will add Docker. Version 1.0.0 [Pull Request](https://github.com/SkylerJohnson102020/trails/commit/bca6c6c7a4121510b5ccea62cd408c8772ab4937)
+
+09-03-2021       - Added documentation to README, holding off on Docker, installed dependencies. Updates to serializers and model, created superuser. Version 1.0.1 [Pull Request](https://github.com/SkylerJohnson102020/trails/commit/bca6c6c7a4121510b5ccea62cd408c8772ab4937)

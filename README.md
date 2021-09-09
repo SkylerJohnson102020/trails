@@ -28,7 +28,10 @@ Trails is a full-stack application written in Django/Python using Django REST Fr
 
 09-03-2021 12:27pm - Created a hike on Hike List view. Only able to create, need to adjust views.py. Max length of description in model updated to 10000.Text of description below. Made migrations. Version 1.0.1 [Pull Request](https://github.com/SkylerJohnson102020/trails/commit/a63c4cfe896acbbe81554d73f1419ddc25d2152b)
 
-09-08-2021 6:12pm - Began work on templates. API is working with full CRUD functionality. Version 1.1.1 [Pull Request]()
+09-08-2021 6:12pm - Began work on templates. API is working with full CRUD functionality. Version 1.1.1 [Pull Request](https://github.com/SkylerJohnson102020/trails/commit/2e8491474bf7a79751f078ad07463174be546b74)
+
+09-08-2021 6:20pm - Added pull request link to previous change on line 31 above. Changed max_length in description to 100000. Made migrations. Version 1.2.1 [Pull Request]()
+
 
 
 Text below is example of description:

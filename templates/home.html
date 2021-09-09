@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block trails %}
+<ul>
+    {% for trails in object_list %}
+        <li>
+            <a href="{% url 'hike_detail' hike.pk %}">{{ trails.trail_name }}</a>
+        </li>
+    {% endfor %}
+</ul>
+{% endblock trails %}

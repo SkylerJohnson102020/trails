@@ -28,6 +28,11 @@ Trails is a full-stack application written in Django/Python using Django REST Fr
 
 09-03-2021 12:27pm - Created a hike on Hike List view. Only able to create, need to adjust views.py. Max length of description in model updated to 10000.Text of description below. Made migrations. Version 1.0.1 [Pull Request](https://github.com/SkylerJohnson102020/trails/commit/a63c4cfe896acbbe81554d73f1419ddc25d2152b)
 
+09-08-2021 6:12pm - Began work on templates. API is working with full CRUD functionality. Version 1.1.1 [Pull Request]()
+
+
+Text below is example of description:
+
 This trip is a 4-5 day backpacking trip covering 52 miles located in the Cascades in Washington. The Glacier Peak Wilderness is located within the Okanogan-Wenatchee National Forest. Our trip was in late July and the temperatures were warm but not horrible. We entered in at the Phelps Creek Trailhead and started with mostly forested hiking. We encountered a few people telling us later in the trip the bugs are far worse and to be prepared for this on the other side of Spider Gap in the Lyman Lakes basin. We continued to hike and eventually ended up in the beautiful Spider Meadows with green all around, waterfalls, and amazing mountain views. We made our way further up trail and made to a decent camping spot 100 yards before the Phelps Basin spur trail junction. (There is an amazing campsite half way between the Phelps Basin spur trail junction and the top of Spider Gap.) 
 
 After a pleasant night, we woke up to a great breakfast and coffee and made our way up the trail to go see Phelps Basin before heading up to Spider Gap. We dropped backs and made our way up the basin a bit to see the nice views. We then retrieved our packs and began the very steep climb up to Spider Gap.
